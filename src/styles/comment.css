@@ -1,0 +1,100 @@
+/* COMMENTS */
+.type-comment-card {
+    padding: 5px 26px;
+    display: flex;
+}
+
+.comment-input {
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.comment-input input {
+    border: none;
+    outline: none;
+    flex-grow: 1;
+    overflow: auto;
+}
+
+.comment-input input:focus {
+    outline: none;
+    border: none;
+}
+
+.comment-input .postBtn {
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+    color: #0095F6;
+    font-weight: 500;
+}
+
+.comment-input .postBtn:hover {
+    color: #00376b;
+}
+
+.comment-display {
+    padding: 0 27px;
+}
+
+.comment-card {
+    display: flex; 
+}
+
+.comment-card * {
+    position: relative;
+}
+
+.comment-card h6 {
+    color: #262626;
+    padding-left: 3px;
+}
+
+.comment-content {
+    padding-left: 3px;
+    margin-top: -2px;
+    flex-grow: 1;
+}
+
+.comment-content-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.comment-content-info span {
+    flex-grow: 1;
+}
+
+.comment-content .nav-item {
+    cursor: pointer;
+    opacity: 0;
+}
+
+.comment-content:hover .nav-item {
+    opacity: 1;
+}
+
+.comment-content .dropdown-menu {
+    position: absolute;
+    right: 0;
+    left: inherit;
+    z-index: 9999;
+    border: none;
+    box-shadow: 0px 0px 5px #ccc;
+}
+
+.comment-content input {
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    background-color: #F0F2F5;
+    padding: 3px 0;
+    padding-left: 10px;
+}
+
+.comment-content input:focus {
+    border: none;
+}

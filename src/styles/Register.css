@@ -1,0 +1,39 @@
+.signup-desc {
+    color: #AFAFAF;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.signup-side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: none;
+    background-color: #0095f6;
+    width: 70%;
+    height: 30px;
+    cursor: pointer;
+}
+
+.signup-side i {
+    color: white;
+}
+
+.fb-link-signup {
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.gender-radio {
+    font-size: 13px;
+}
+
+.gender-radio input {
+    margin-right: 5px;
+}
